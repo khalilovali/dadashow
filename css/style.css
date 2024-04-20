@@ -23,44 +23,29 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-top: 25px;
-  margin-left: 25.5rem;
+  margin: 1rem 0;
   cursor: pointer;
+}
+.color {
+  border-radius: 50px;
+  text-align: center;
+  padding: 23px 0px;
+  width: 47px;
 }
 .color-1 {
   background-color: #f06292;
-  border-radius: 50px;
-  text-align: center;
-  padding: 23px 0px;
-  width: 47px;
 }
 .color-2 {
   background-color: #c98ed6;
-  border-radius: 50px;
-  text-align: center;
-  padding: 23px 0px;
-  width: 47px;
 }
 .color-3 {
   background-color: #4fc3f7;
-  border-radius: 50px;
-  text-align: center;
-  padding: 23px 0px;
-  width: 47px;
 }
 .color-4 {
   background-color: #ffd54f;
-  border-radius: 50px;
-  text-align: center;
-  padding: 23px 0px;
-  width: 47px;
 }
 .color-5 {
   background-color: #aed581;
-  border-radius: 50px;
-  text-align: center;
-  padding: 23px 0px;
-  width: 47px;
 }
 button {
   background-color: #7e57c2;
@@ -70,11 +55,16 @@ button {
   border: 1px;
   cursor: pointer;
 }
+body > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .second-part {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 13rem;
+  width: 40%;
 }
 .card {
   width: 300px;
